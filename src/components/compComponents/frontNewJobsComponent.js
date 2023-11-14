@@ -38,32 +38,32 @@ const FrontNewJobComponent = () => {
     <Gallery>
       {/* Repeat this block for each project */}
       <Card>
-        <ProjectImage src="/static/logo.png" alt="Project" />
+        <ProjectImage src="/logo.png" alt="Project" />
         <ProjectTitle>The Olfactive</ProjectTitle>
         <ProjectDescription>UI, Art direction React</ProjectDescription>
       </Card>
       <Card>
-      <ProjectImage src="/static/logo.png" alt="Project" />
+      <ProjectImage src="/logo.png" alt="Project" />
         <ProjectTitle>The Olfactive</ProjectTitle>
         <ProjectDescription>UI, Art direction React</ProjectDescription>
       </Card>
       <Card>
-      <ProjectImage src="/static/logo.png" alt="Project" />
+      <ProjectImage src="/logo.png" alt="Project" />
         <ProjectTitle>The Olfactive</ProjectTitle>
         <ProjectDescription>UI, Art direction React</ProjectDescription>
       </Card>
       <Card>
-      <ProjectImage src="/static/logo.png" alt="Project" />
+      <ProjectImage src="/logo.png" alt="Project" />
         <ProjectTitle>The Olfactive</ProjectTitle>
         <ProjectDescription>UI, Art direction React</ProjectDescription>
       </Card>
       <Card>
-      <ProjectImage src="/static/logo.png" alt="Project" />
+      <ProjectImage src="/logo.png" alt="Project" />
         <ProjectTitle>The Olfactive</ProjectTitle>
         <ProjectDescription>UI, Art direction React</ProjectDescription>
       </Card>
       <Card>
-      <ProjectImage src="/static/logo.png" alt="Project" />
+      <ProjectImage src="../logo.png" alt="Project" />
         <ProjectTitle>The Olfactive</ProjectTitle>
         <ProjectDescription>UI, Art direction React</ProjectDescription>
       </Card>

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { Link } from 'gatsby';
+import logo from "../assets/images/newlogo.png"; // Update the relative path according to your project structure
 
 // Define your styled components outside of the NavBar component
 const Nav = styled.nav`
@@ -88,8 +89,9 @@ const NavBar = () => {
 
   return (
     <Nav>
-      <NavbarLogo src='/static/newlogo.png' alt='Logo' />
-      <Hamburger onClick={() => setOpen(!open)}>
+  <Logo to="/"> {/* This should be the Logo styled component */}
+        <NavbarLogo src={logo} alt='Logo' /> {/* Use the imported logo */}
+      </Logo>      <Hamburger onClick={() => setOpen(!open)}>
         <span />
         <span />
         <span />
