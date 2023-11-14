@@ -1,0 +1,58 @@
+:root {
+  --primary-color: #0056b3; /* The vibrant blue from the job search section */
+  --secondary-color: #262626; /* A dark gray for text or accents */
+  --background-color: #f8f8f8; /* Light gray for backgrounds */
+  --accent-color: #e3e3e3; /* A lighter shade for secondary elements */
+  --button-color: #0056b3; /* The same blue for buttons */
+  --button-hover-color: #003d82; /* A darker blue for button hover state */
+  --text-color: #333; /* A dark gray for primary text */
+  --link-color: #ffffff; /* White for links */
+  --link-hover-color: #aaaaaa; /* A light gray for hover states */
+}
+
+
+
+/* Basic reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Styles for the body to ensure font consistency */
+  body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* A clean, modern sans-serif font */
+    line-height: 1.6;
+    color: var(--text-color);
+    padding: 2%;
+    margin: auto;
+    max-width: 1383px;
+    background-color: var(--background-color); /* Using the background color variable */
+  }
+  
+  /* The header styles */
+  header {
+    background: var(--background-color);
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Main content area */
+  .main-content {
+   max-width: 1420px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+  }
+
+  
+  /* Responsive design for smaller screens */
+  @media screen and (max-width: 1420px) {
+    .main-content {
+      width: auto;
+      padding: 20px;
+    }
+  }
+  
