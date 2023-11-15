@@ -6,8 +6,7 @@ import styled from 'styled-components';
     
     const StyledDiv = styled.div `
     color: black;
-    font-size: 26px;
-    background-color: pink;
+    font-size: xx-large;
     font-weight: bold;
     margin:auto;
     `; 

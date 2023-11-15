@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { Link } from 'gatsby';
-import logo from "../assets/images/newlogo.png"; // Update the relative path according to your project structure
+import logo from "../assets/image/newlogo.png"; // Update the relative path according to your project structure
 
 // Define your styled components outside of the NavBar component
 const Nav = styled.nav`
@@ -36,7 +36,8 @@ const NavItems = styled.div`
 
 const NavLink = styled(Link)`
   color: #fff;
-  background: black;
+  background-color: #1E90FF; /* Dodger Blue */
+  color: white;
   font-family: 'Inter', sans-serif;
   font-weight: bold;
   text-decoration: none;
