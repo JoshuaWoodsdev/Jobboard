@@ -9,7 +9,6 @@ const IndexPage = () => {
       <>
        <Index_IntroCopy/>
        <FrontNewJobComponent/>
-       
       </>
     </Layout>
 

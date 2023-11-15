@@ -82,16 +82,16 @@ const Hamburger = styled.div`
   }
 `;
 
-
 // NavBar component
 const NavBar = () => {
   const [open, setOpen] = useState(false);
 
   return (
     <Nav>
-  <Logo to="/"> {/* This should be the Logo styled component */}
+      <Logo to="/"> {/* This should be the Logo styled component */}
         <NavbarLogo src={logo} alt='Logo' /> {/* Use the imported logo */}
-      </Logo>      <Hamburger onClick={() => setOpen(!open)}>
+      </Logo>     
+       <Hamburger onClick={() => setOpen(!open)}>
         <span />
         <span />
         <span />

@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
+
+
 const Gallery = styled.section`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -33,41 +35,33 @@ const ProjectDescription = styled.p`
   color: #666;
 `;
 
+const projects = [
+  {  
+    id: "id1",
+    imgSrc: "../images/test.jpg",
+    title: "Project One",
+    description: "UI, Art direction React"
+  },
+  {  
+    id: "id2",
+    imgSrc: "/assets/images/shridhar-gupta-dZxQn4VEv2M-unsplash.jpg",
+    title: "Project Two",
+    description: "UX, Frontend Development"
+  },
+  // Add more project objects here
+];
+
+
 const FrontNewJobComponent = () => {
   return (
     <Gallery>
-      {/* Repeat this block for each project */}
-      <Card>
-        <ProjectImage src="/logo.png" alt="Project" />
-        <ProjectTitle>The Olfactive</ProjectTitle>
-        <ProjectDescription>UI, Art direction React</ProjectDescription>
-      </Card>
-      <Card>
-      <ProjectImage src="/logo.png" alt="Project" />
-        <ProjectTitle>The Olfactive</ProjectTitle>
-        <ProjectDescription>UI, Art direction React</ProjectDescription>
-      </Card>
-      <Card>
-      <ProjectImage src="/logo.png" alt="Project" />
-        <ProjectTitle>The Olfactive</ProjectTitle>
-        <ProjectDescription>UI, Art direction React</ProjectDescription>
-      </Card>
-      <Card>
-      <ProjectImage src="/logo.png" alt="Project" />
-        <ProjectTitle>The Olfactive</ProjectTitle>
-        <ProjectDescription>UI, Art direction React</ProjectDescription>
-      </Card>
-      <Card>
-      <ProjectImage src="/logo.png" alt="Project" />
-        <ProjectTitle>The Olfactive</ProjectTitle>
-        <ProjectDescription>UI, Art direction React</ProjectDescription>
-      </Card>
-      <Card>
-      <ProjectImage src="../logo.png" alt="Project" />
-        <ProjectTitle>The Olfactive</ProjectTitle>
-        <ProjectDescription>UI, Art direction React</ProjectDescription>
-      </Card>
-      {/* ... other project cards */}
+      {projects.map((project) => (
+       <Card key={project.id}>
+        <ProjectImage src={project.imgSrc} alt={project.title}/>
+        <ProjectTitle>{project.title}</ProjectTitle>
+        <ProjectDescription>{project.description}</ProjectDescription>
+       </Card>
+      ))}
     </Gallery>
   );
 };

@@ -12,8 +12,10 @@ const SiteContainer = styled.div`
 `;
 
 const ContentWrapper = styled.main`
-  width: 100%;
+  max-width: 80%;
   flex: 1;
+  margin: auto;
+  margin-top: 200px;
 `;
 
 const Layout = ({ children }) => (
