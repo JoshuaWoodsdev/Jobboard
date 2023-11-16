@@ -26,7 +26,8 @@
     color: var(--text-color);
     padding: 2%;
     margin: auto;
-    max-width: 1383px;
+    min-width: 300px;
+    max-width: 1200px;
     background-color: var(--background-color); /* Using the background color variable */
   }
   

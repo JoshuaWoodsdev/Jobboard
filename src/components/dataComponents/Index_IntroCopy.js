@@ -15,7 +15,7 @@ import styled from 'styled-components';
 
     const Index_IntroCopy = () => {
         return(
-        <StyledDiv>Pull copy here We keep it simple. No frills, no fuss—just the jobs you're looking for, right at your fingertips. Start your journey with us today and discover your next career adventure.
+        <StyledDiv>We keep it simple. No frills, no fuss—just the jobs you're looking for, right at your fingertips. Start your journey with us today and discover your next career adventure.
           Sign up for beta access or learn more about x.</StyledDiv>
         )
       };

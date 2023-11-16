@@ -2,6 +2,10 @@ import React from 'react';
 import styled from 'styled-components';
 import image1 from '../../assets/image/sunder-muthukumaran-fd6K_OFlnRA-unsplash.jpg';
 import image2 from '../../assets/image/shridhar-gupta-dZxQn4VEv2M-unsplash.jpg';
+import image3 from '../../assets/image/matt-noble-62YZaMeFFxM-unsplash.jpg';
+import image4 from '../../assets/image/shridhar-gupta-dZxQn4VEv2M-unsplash.jpg';
+import image5 from '../../assets/image/sunder-muthukumaran-fd6K_OFlnRA-unsplash.jpg';
+import image6 from '../../assets/image/shridhar-gupta-dZxQn4VEv2M-unsplash.jpg';
 
 
 const Gallery = styled.section`
@@ -11,19 +15,21 @@ const Gallery = styled.section`
   margin-top: 90px;
   padding: 20px;
   height: fit-content;
-
 `;
 
 const Card = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-`;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 4.5%;
+  padding: 10px;
+  margin: auto;
+  `;
 
 const ProjectImage = styled.img`
-  width: 100%; // Ensures the image takes up the full width of the card
   border-radius: 8px; // Optional: if you want rounded corners
-  width: 100%; // This will make the image fill the container width
+  width: 80%; // This will make the image fill the container width
   height: 200px; // Set a fixed height for all images
   object-fit: cover; // This will cover the area without stretching the image
   border-radius: 8px; // Optional: if you want rounded corners
@@ -53,12 +59,36 @@ const projects = [
     title: "Project Two",
     description: "UX, Frontend Development"
   },
+  {  
+    id: "id3",
+    imgSrc: image3,
+    title: "Project Two",
+    description: "UX, Frontend Development"
+  },
+  {  
+    id: "id4",
+    imgSrc: image4,
+    title: "Project Two",
+    description: "UX, Frontend Development"
+  },
+  {  
+    id: "id5",
+    imgSrc: image5,
+    title: "Project Two",
+    description: "UX, Frontend Development"
+  },
+  {  
+    id: "id6",
+    imgSrc: image6,
+    title: "Project Two",
+    description: "UX, Frontend Development"
+  },
   // ... more projects
 ];
 
 
 
-
+//placeholder for jobs pulled from sanity
 const FrontNewJobComponent = () => {
   return (
     <Gallery>
