@@ -8,6 +8,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <>
+      
        <Index_IntroCopy/>
        <FrontNewJobComponent/>
        <Signup_Component/>

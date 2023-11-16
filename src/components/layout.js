@@ -9,6 +9,8 @@ const SiteContainer = styled.div`
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  max-width:90%;
+  margin:auto;
 `;
 
 const ContentWrapper = styled.main`

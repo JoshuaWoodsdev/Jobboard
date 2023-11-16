@@ -46,14 +46,11 @@
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
     padding: 20px;
+    padding: 5vh 20px;
   }
 
-  
-  /* Responsive design for smaller screens */
-  @media screen and (max-width: 1420px) {
+  @media screen and (max-width: 768px) {
     .main-content {
-      width: auto;
-      padding: 20px;
+      padding: 10vh 10px; /* Increased vertical padding on smaller screens */
     }
   }
-  
