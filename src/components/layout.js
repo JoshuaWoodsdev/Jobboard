@@ -9,12 +9,12 @@ const SiteContainer = styled.div`
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  max-width:90%;
+  max-width:100%;
   margin:auto;
 `;
 
 const ContentWrapper = styled.main`
-  max-width: 80%;
+  max-width: 100%;
   flex: 1;
   margin: auto;
   margin-top: 200px;

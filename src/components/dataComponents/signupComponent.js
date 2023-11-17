@@ -1,16 +1,32 @@
 import React from "react";
 import { Link } from "gatsby";
 import styled from 'styled-components';
+import backgroundImage from "../../assets/image/shridhar-gupta-dZxQn4VEv2M-unsplash.jpg";
 
+const ArticleHolder = styled.article`
+display: flex;
+min-width: 100%; 
+background-image: url(${backgroundImage});
+background-size: cover;
+background-position: center;  
+background-repeat: no-repeat; 
+margin-top: 300px;
+`;
+
+const ImageArea= styled.div`
+background-color: red;
+width: auto;
+height: 100%;
+color: blue;
+`;
 const Article = styled.article`
-  max-width: 42rem; /* Equivalent to Tachyons' mw7 */
-  margin: 3rem auto; /* Equivalent to Tachyons' ma5 */
-  padding: 1rem 2rem; /* Equivalent to Tachyons' ph3 ph5-ns */
+  width: 60%; /* Equivalent to Tachyons' mw7 */
+  padding: 2rem 2rem;
   text-align: center;
   border-radius: 0.5rem; /* Example border radius */
   background-color: #eff3f6; /* A light blue, as an example */
   color: #000080; /* Navy blue */
-  margin-bottom: 3rem;
+  margin:40px;
 `;
 
 const Title = styled.h1`
@@ -68,6 +84,7 @@ const SecondaryLink = styled(StyledLink)`
 
 const SigninSignup = () => {
   return (
+    <ArticleHolder>
     <Article>
       <Title>Job Search. For you</Title>
       <Subtitle>
@@ -82,6 +99,8 @@ const SigninSignup = () => {
         <SecondaryLink to="/jobs">Post Job</SecondaryLink>
       </div>
     </Article>
+          
+    </ArticleHolder>
   );
 }
 

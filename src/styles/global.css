@@ -24,10 +24,7 @@
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* A clean, modern sans-serif font */
     line-height: 1.6;
     color: var(--text-color);
-    padding: 2%;
     margin: auto;
-    min-width: 300px;
-    max-width: 1200px;
     background-color: var(--background-color); /* Using the background color variable */
   }
   
