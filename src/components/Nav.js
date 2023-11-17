@@ -1,14 +1,19 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { Link } from 'gatsby';
-import logo from "../assets/image/newlogo.png"; // Update the relative path according to your project structure
+import logo from "../assets/image/jason-leung-wHddViTmSvA-unsplash.jpg"; 
 
 // Define your styled components outside of the NavBar component
 const Nav = styled.nav`
-  background: #f8f8f8;
+  background: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10; 
 
 `;
 
@@ -60,9 +65,11 @@ const NavLink = styled(Link)`
 `;
 
 const NavbarLogo = styled.img`
-  height: 120px; // Adjust the height as needed
-  width: 120px; // This will maintain the aspect ratio
   padding: 0px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 2rem;
 `;
 
 const Hamburger = styled.div`

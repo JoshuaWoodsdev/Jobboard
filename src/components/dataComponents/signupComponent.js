@@ -24,7 +24,7 @@ const Article = styled.article`
   padding: 2rem 2rem;
   text-align: center;
   border-radius: 0.5rem; /* Example border radius */
-  background-color: #eff3f6; /* A light blue, as an example */
+  background-color: white; /* A light blue, as an example */
   color: #000080; /* Navy blue */
   margin:40px;
 `;

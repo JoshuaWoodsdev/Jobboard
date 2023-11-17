@@ -1,7 +1,7 @@
 :root {
   --primary-color: #0056b3; /* The vibrant blue from the job search section */
   --secondary-color: #262626; /* A dark gray for text or accents */
-  --background-color: #f8f8f8; /* Light gray for backgrounds */
+  --background-color: White; /* Light gray for backgrounds */
   --accent-color: #e3e3e3; /* A lighter shade for secondary elements */
   --button-color: #0056b3; /* The same blue for buttons */
   --button-hover-color: #003d82; /* A darker blue for button hover state */
