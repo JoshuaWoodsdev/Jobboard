@@ -1,16 +1,18 @@
 import React from 'react';
 import Layout from '../components/layout';
 import UserProfiles from '../components/utilComponents/user-profile';
+import BusinessProfile from '../components/utilComponents/business-profiles';
 
 
 
-const UserProfile = () => {
+
+const CompanyProfile = () => {
     return (
       <Layout>
-        <UserProfiles/>
+        <BusinessProfile/>
       </Layout>
   
     )
   };
   
-  export default UserProfile;
+  export default CompanyProfile;

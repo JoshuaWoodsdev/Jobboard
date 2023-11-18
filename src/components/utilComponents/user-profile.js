@@ -13,7 +13,6 @@ const ProfileHeader = styled.header`
   display: flex;
   align-items: center;
   margin-bottom: 2rem;
-  background-color:blue;
   padding:10px;
 `;
 

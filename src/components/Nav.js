@@ -5,11 +5,10 @@ import logo from "../assets/image/jason-leung-wHddViTmSvA-unsplash.jpg";
 
 // Define your styled components outside of the NavBar component
 const Nav = styled.nav`
-  background: white;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -46,7 +45,7 @@ const NavLink = styled(Link)`
   font-family: 'Inter', sans-serif;
   font-weight: bold;
   text-decoration: none;
-  padding: 20px;
+  padding: 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 4.5%;
   margin-left: 2rem;

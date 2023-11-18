@@ -99,7 +99,6 @@ const SigninSignup = () => {
         <SecondaryLink to="/jobs">Post Job</SecondaryLink>
       </div>
     </Article>
-          
     </ArticleHolder>
   );
 }
