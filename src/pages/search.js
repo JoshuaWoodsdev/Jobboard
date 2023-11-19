@@ -11,7 +11,7 @@ const PageContainer = styled.div`
 `;
 
 const Header = styled.header`
-  background-color: #0056b3;
+  background-color: white;
   color: #ffffff;
   padding: 1rem 0;
   text-align: center;
