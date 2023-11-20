@@ -14,7 +14,13 @@ func main() {
     log.Fatal(http.ListenAndServe(":8080", nil))
 }
 
+func enableCors(w http.ResponseWriter) {
+	(*w).Header().Set("Access-Control-Allow-Orgin", "*")
+}
+
 func homeHandler(w http.ResponseWriter, r *http.Request) {
-    // Send a response back to the client
+    enableCors(&w)
+	
+	// Send a response back to the client
     w.Write([]byte("hello from go server"))
 }
